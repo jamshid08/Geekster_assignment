@@ -17,7 +17,7 @@ CGPA out of 10.
 
 
 
-## Authors
+### Authors
 
 - JAMSHID KHALIQ
 - insta: [Jamsheed_khaliq](https://www.instagram.com/jamsheed_khaliq)
@@ -25,14 +25,14 @@ CGPA out of 10.
 
 
 
-## Badges
+#### Badges
 
 
 ![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
 ![GEEKSTER License](https://img.shields.io/badge/License-GEEKSTER-orange.svg)
 
 
-## License
+### License
 Copyright @ 2023 [jamshid khaliq](https://www.instagram.com/jamsheed_khaliq)
 
 This file is [MIT](https://choosealicense.com/licenses/mit/) Licensed
@@ -40,7 +40,7 @@ This file is [MIT](https://choosealicense.com/licenses/mit/) Licensed
 This file is [Geekster](https://learn.geekster.in/collections?page=1) Licensed
 
 
-### Contact 
+#### Contact 
 
 
 Reach out to me at jamsheed01234.jk@gmail.com
