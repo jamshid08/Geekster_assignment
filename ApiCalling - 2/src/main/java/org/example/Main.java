@@ -73,7 +73,7 @@ public class Main {
             System.out.println(jsonAPIResponse.get("value")); */
 
 
-            Object o1 = new AtomicReference<>(jsonAPIResponse);
+            Object o1 = jsonAPIResponse;
             String s1 = o1.toString();
             s1 = s1.substring(1,s1.length()-1);
 
