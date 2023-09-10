@@ -18,8 +18,8 @@ public class myClass {
         System.out.println("name :"  + name);
         this.name = name;
     }
-
-    public String getname() {
-        return name;
+@Override
+    public String toString() {
+        return "Name= " + name ;
     }
 }
