@@ -1,7 +1,7 @@
 package com.jamshidkhaliq.RestaurantMVC.entity;
 
-import lombok.Data;
 
+import lombok.Data;
 
 @Data
 public class Restaurant {
@@ -13,7 +13,9 @@ public class Restaurant {
     private String specialty;
     private int totalStaff;
     private double averageRating;
-    private boolean isOpen;
+    private Boolean open ;
     private Category restaurantcategory;
+
+
 
 }

@@ -48,7 +48,7 @@ public class ResService {
 
         for(Restaurant restaurant : restaurant_repo.getRestaurant_list()){
             if(restaurant.getId().equals(id)){
-                restaurant.setId(updateRestaurant.getId());
+       /*         restaurant.setId(updateRestaurant.getId());
                 restaurant.setName(updateRestaurant.getName());
                 restaurant.setAddress(updateRestaurant.getAddress());
                 restaurant.setPhoneNumber(updateRestaurant.getPhoneNumber());
@@ -58,7 +58,39 @@ public class ResService {
                 restaurant.setOpen(updateRestaurant.isOpen());
                 restaurant.setRestaurantcategory(updateRestaurant.getRestaurantcategory());
 
+                return "Restaurant info updated"; */
+
+
+                if (updateRestaurant.getId() != null) {
+                    restaurant.setId(updateRestaurant.getId());
+                }
+                if (updateRestaurant.getName() != null) {
+                    restaurant.setName(updateRestaurant.getName());
+                }
+                if (updateRestaurant.getAddress() != null) {
+                    restaurant.setAddress(updateRestaurant.getAddress());
+                }
+                if (updateRestaurant.getPhoneNumber() != null) {
+                    restaurant.setPhoneNumber(updateRestaurant.getPhoneNumber());
+                }
+                if (updateRestaurant.getSpecialty() != null) {
+                    restaurant.setSpecialty(updateRestaurant.getSpecialty());
+                }
+                if (updateRestaurant.getTotalStaff() != 0) {
+                    restaurant.setTotalStaff(updateRestaurant.getTotalStaff());
+                }
+                if (updateRestaurant.getAverageRating() != 0.0) {
+                    restaurant.setAverageRating(updateRestaurant.getAverageRating());
+                }
+                if (updateRestaurant.getOpen() != null) {
+                    restaurant.setOpen(updateRestaurant.getOpen());
+                }
+                if (updateRestaurant.getRestaurantcategory() != null) {
+                    restaurant.setRestaurantcategory(updateRestaurant.getRestaurantcategory());
+                }
+
                 return "Restaurant info updated";
+
             }
         }
 
