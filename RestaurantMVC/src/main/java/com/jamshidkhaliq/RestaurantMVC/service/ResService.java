@@ -20,9 +20,9 @@ public class ResService {
             }
         }
 
-        String str = "invalid  retaurant id";
-        Object ob = str;
-        return  ob;
+        Object object;
+        object = "invalid restaurant id";
+        return  object;
     }
 
 
@@ -39,7 +39,7 @@ public class ResService {
     // add a new restaurant to the list
     public String addRestaurant(Restaurant newRestaurant) {
         restaurant_repo.getRestaurant_list().add(newRestaurant);
-        return "new reataurant added";
+        return "new restaurant added";
     }
 
 
