@@ -29,7 +29,9 @@ public class UrlHitService {
 
     public Map<String, Integer>  getUserHitCount(String username) {
          urlrepo.userHitCounts.put(username, urlrepo.userHitCounts.getOrDefault(username, 0) + 1);
-        return urlrepo.userHitCounts;
+        Map<String, Integer>  ansMap = new HashMap<>();
+        ansMap.put(username,urlrepo.userHitCounts.get(username));
+        return ansMap;
 
     }
 
