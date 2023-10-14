@@ -20,6 +20,7 @@ public class Admin {
     private String adminName;
 
     @Pattern(regexp = ".*@admin\\.com$")
+    @Email
     private String adminEmail;
     private String adminPassword;
 }
