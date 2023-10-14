@@ -24,7 +24,6 @@ public class LaptopService {
         laptopRepo.save(updateLaptop);
         return "laptop with ID : "+ id+" updated";
     }
-
     public String deleteById(String id) {
         laptopRepo.findById(id).orElseThrow();
         laptopRepo.deleteById(id);

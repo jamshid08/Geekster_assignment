@@ -1,17 +1,13 @@
-package com.jamsheed.Student;
+package com.jamsheed.RestaurantManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentApplication {
+public class RestaurantManagementApplication {
 
 	public static void main(String[] args) {
-
-
-		SpringApplication.run(StudentApplication.class, args);
-
+		SpringApplication.run(RestaurantManagementApplication.class, args);
 	}
-
 
 }

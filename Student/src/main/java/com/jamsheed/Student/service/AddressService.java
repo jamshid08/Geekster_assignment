@@ -23,7 +23,9 @@ public class AddressService {
         addressRepo.findById(id).orElseThrow();
         addressRepo.save(updateAddress);
         return "address with ID : " +id +" updated";
+
     }
+
 
     public String deleteById(Long id) {
         addressRepo.findById(id).orElseThrow();
@@ -36,7 +38,7 @@ public class AddressService {
     }
 
     public Address getAddressById(Long id) {
-       Address findAdd = addressRepo.findById(id).orElseThrow();
-       return findAdd;
+       return addressRepo.findById(id).orElseThrow();
+
     }
 }
