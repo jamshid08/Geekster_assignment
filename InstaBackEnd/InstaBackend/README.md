@@ -163,12 +163,15 @@ Data Structure used : List
 # Project summary
 
 1. Entity Classes:
+2. 
  User Class:
 
-    Represents a user in the system with various attributes like name, handle, bio, email, password, gender, account type, and a boolean indicating whether the user has a blue tick (verified status).
+       Represents a user in the system with various attributes like name, handle, bio, email, password, gender, account type, and a boolean indicating whether the user has a blue tick (verified status).
+   
  Post Class:
 
     Represents a post made by a user, containing data such as the post content, caption, location, post type, timestamp, and a reference to the user who owns the post.
+    
  AuthenticationToken Class:
 
     Represents an authentication token associated with a user. It includes a unique token ID, token value, creation timestamp, and a reference to the associated user.
